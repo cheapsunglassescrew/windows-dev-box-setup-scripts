@@ -26,6 +26,10 @@ executeScript "SystemConfiguration.ps1";
 executeScript "FileExplorerSettings.ps1";
 executeScript "RemoveDefaultApps.ps1";
 executeScript "CommonDevTools.ps1";
+executeScript "HyperV.ps1";
+RefreshEnv
+executeScript "WSL.ps1";
+RefreshEnv
 
 #--- Tools ---
 #--- Installing VS and VS Code with Git
