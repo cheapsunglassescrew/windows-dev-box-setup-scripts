@@ -22,6 +22,5 @@ choco install -y goggalaxy
 choco install -y epicgameslauncher
 choco install -y origin
 choco install -y discord
-choco install -y icloud
 choco install -y whatsapp
 
