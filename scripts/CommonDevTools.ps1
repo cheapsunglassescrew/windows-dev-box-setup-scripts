@@ -10,7 +10,6 @@ choco install -y 7zip.install
 choco install -y sysinternals
 choco install -y googlechrome
 choco install -y docker-desktop
-choco install -y vscode-docker
 choco install -y monogame
 choco install -y gimp
 choco install -y tiled
