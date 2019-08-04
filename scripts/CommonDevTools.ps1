@@ -23,7 +23,7 @@ choco install -y steam
 choco install -y goggalaxy
 choco install -y epicgameslauncher
 choco install -y origin
-choco install -y discord
+# choco install -y discord
 choco install -y whatsapp
 choco install -y google-backup-and-sync
 choco install -y chocolatey
