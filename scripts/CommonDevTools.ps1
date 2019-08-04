@@ -17,7 +17,7 @@ choco install -y tiled
 #FAIL choco install -y dotpeek
 #FAIL choco install -y paint.net
 choco install -y poshgit
-choco install -y lastpass
+# choco install -y lastpass
 
 choco install -y steam
 choco install -y goggalaxy
