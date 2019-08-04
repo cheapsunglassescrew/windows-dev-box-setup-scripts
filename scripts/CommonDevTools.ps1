@@ -14,8 +14,8 @@ choco install -y googlechrome
 choco install -y monogame
 choco install -y gimp
 choco install -y tiled
-choco install -y dotpeek
-choco install -y paint.net
+#FAIL choco install -y dotpeek
+#FAIL choco install -y paint.net
 choco install -y poshgit
 choco install -y lastpass
 
