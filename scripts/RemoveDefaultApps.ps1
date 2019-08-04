@@ -8,6 +8,7 @@ Write-Host "Uninstall some applications that come with Windows out of the box" -
 # https://gist.github.com/alirobe/7f3b34ad89a159e6daa1
 # https://github.com/W4RH4WK/Debloat-Windows-10/blob/master/scripts/remove-default-apps.ps1
 
+# Get-AppxPackage -AllUsers | where-object {$_.name –notlike "*store*"} | Remove-AppxPackage
 
 function removeApp {
 	Param ([string]$appName)
