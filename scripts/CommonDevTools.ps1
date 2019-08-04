@@ -1,5 +1,6 @@
 choco install -y geforce-game-ready-driver
 # tools we expect devs across many scenarios will want
+choco install -y totalcommander
 choco install -y vscode
 choco install -y vscode-csharp
 choco install -y vscode-powershell
