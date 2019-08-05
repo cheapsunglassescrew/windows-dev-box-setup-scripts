@@ -10,7 +10,7 @@ Write-Host "Uninstall some applications that come with Windows out of the box" -
 
 # Get-AppxPackage -AllUsers | where-object {$_.name -notlike "*store*"} | where-object {$_.name -notlike "*photos*"}  | where-object {$_.name -notlike "*calc*"} | Write-Output
 
-Get-AppxPackage -AllUsers | where-object {$_.name -notlike "*store*"} | where-object {$_.name -notlike "*photos*"}  | where-object {$_.name -notlike "*calc*"} | Remove-AppxPackage
+Get-AppxPackage -AllUsers | where-object {$_.name -notlike "*store*"} | where-object {$_.name -notlike "*photos*"}  | where-object {$_.name -notlike "*calc*"} | aRemove-AppxPackage
 
 foreach ($app in $applicationList) {
     removeApp $app
