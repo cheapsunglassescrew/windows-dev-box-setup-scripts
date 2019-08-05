@@ -41,7 +41,7 @@ Update-SessionEnvironment #refreshing env due to Git install
 
 #--- UWP Workload and installing Windows Template Studio ---
 # choco install -y visualstudio2017-workload-azure
-choco install -y visualstudio2019-workload-manageddesktop
+choco install -y visualstudio2019-workload-manageddesktop --package-parameters "--no-includeRecommended"
 
 #--- reenabling critial items ---
 Enable-UAC
