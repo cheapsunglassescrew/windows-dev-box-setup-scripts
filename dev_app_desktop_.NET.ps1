@@ -41,7 +41,7 @@ Update-SessionEnvironment #refreshing env due to Git install
 
 #--- UWP Workload and installing Windows Template Studio ---
 # choco install -y visualstudio2017-workload-azure
-# choco install -y visualstudio2017-workload-manageddesktop
+choco install -y visualstudio2017-workload-manageddesktop
 
 #--- reenabling critial items ---
 Enable-UAC
