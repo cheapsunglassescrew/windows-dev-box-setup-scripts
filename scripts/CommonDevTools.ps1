@@ -14,20 +14,21 @@ choco install -y 7zip.install
 choco install -y sysinternals
 choco install -y googlechrome
 # choco install -y docker-desktop
-choco install -y monogame
+# choco install -y monogame
 choco install -y gimp
-choco install -y tiled
+# choco install -y tiled
 #FAIL choco install -y dotpeek
 #FAIL choco install -y paint.net
-choco install -y poshgit
+# choco install -y poshgit
 # choco install -y lastpass
 
 choco install -y steam
 choco install -y goggalaxy
 choco install -y epicgameslauncher
-choco install -y origin
+# choco install -y origin
 # choco install -y discord
-choco install -y whatsapp
+# choco install -y whatsapp
 # choco install -y google-backup-and-sync
-choco install -y irfanview
+# choco install -y irfanview
+choco install -y windirstat
 
